@@ -1,68 +1,81 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	display: flex;
-	justify-content: center;
-	height: 90vh;
-	align-items: center;
-	background-color: #242424;
-	color: #e1e1e1;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  background-color: #242424;
+  color: #e1e1e1;
 }
 
 form {
-	background-color: #121212;
-	border-radius: 10px;
-	padding: 30px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	width: 300px;
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
 }
 
 form h1 {
-	text-align: center;
+  text-align: center;
 }
 
 form input,
 .login-button {
-	border-radius: 10px;
-	padding: 16px;
-	border: 0px;
+  border-radius: 10px;
+  padding: 16px;
+  border: 0px;
 }
 
 form input {
-	background-color: #242424;
-	color: #e1e1e1;
+  background-color: #242424;
+  color: #e1e1e1;
 }
 
 form .login-button {
-	background-color: #8256e7;
-	color: #ffff;
-	font-weight: bold;
+  background-color: #8256e7;
+  color: #ffff;
+  font-weight: bold;
+}
+
+form a {
+  text-align: center;
+  color: #8256e7;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form a:hover {
+  transition: 1s;
+  color: #bcb2d4;
 }
 form .login-button:hover {
-	cursor: pointer;
-	background-color: #bcb2d4;
-	transition: 1s;
+  cursor: pointer;
+  background-color: #bcb2d4;
+  transition: 1s;
 }
 
 .login-google img {
-	width: 15px;
-	height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .login-google {
-	padding: 16px;
-	border: 0;
-	border-radius: 10px;
-	background-color: #242424;
-	display: flex;
-	align-items: center;
-	gap: 5px;
-	color: white;
-	font-weight: bold;
-	justify-content: center;
+  padding: 16px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
 }
 .login-google:hover {
-	background: #383838;
-	cursor: pointer;
+  background: #383838;
+  cursor: pointer;
 }
