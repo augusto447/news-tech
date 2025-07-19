@@ -16,7 +16,6 @@ form {
 	flex-direction: column;
 	gap: 15px;
 	width: 300px;
-	height: 300px;
 }
 
 form h1 {
@@ -24,7 +23,7 @@ form h1 {
 }
 
 form input,
-button {
+.login-button {
 	border-radius: 10px;
 	padding: 16px;
 	border: 0px;
@@ -35,13 +34,35 @@ form input {
 	color: #e1e1e1;
 }
 
-form button {
+form .login-button {
 	background-color: #8256e7;
 	color: #ffff;
 	font-weight: bold;
 }
-form button:hover {
+form .login-button:hover {
 	cursor: pointer;
 	background-color: #bcb2d4;
 	transition: 1s;
+}
+
+.login-google img {
+	width: 15px;
+	height: 15px;
+}
+
+.login-google {
+	padding: 16px;
+	border: 0;
+	border-radius: 10px;
+	background-color: #242424;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	color: white;
+	font-weight: bold;
+	justify-content: center;
+}
+.login-google:hover {
+	background: #383838;
+	cursor: pointer;
 }
